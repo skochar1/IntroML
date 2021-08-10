@@ -1,5 +1,5 @@
 # IntroML
-Code I wrote to learn basic machine learning skills.
+Code I wrote to learn basic machine learning skills. I trained and validated a model for Iowa home sale prices predictions.
 
 The steps to building and using a model are:
 
