@@ -22,3 +22,10 @@ Many data scientists hack together models without pipelines, but pipelines have 
 2. Fewer Bugs: There are fewer opportunities to misapply a step or forget a preprocessing step.
 3. Easier to Productionize: It can be surprisingly hard to transition a model from a prototype to something deployable at scale. 
 4. More Options for Model Validation: You will see an example in the next tutorial, which covers cross-validation.
+
+#### Building a pipeline steps:
+1. Step 1: Define Preprocessing Steps
+      Similar to how a pipeline bundles together preprocessing and modeling steps, we use the ColumnTransformer class to bundle together different preprocessing steps. The code should:
+
+  * impute missing values in numerical data, and
+  * impute missing values and applies a one-hot encoding to categorical data.
