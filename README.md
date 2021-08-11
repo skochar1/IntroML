@@ -26,7 +26,7 @@ Many data scientists hack together models without pipelines, but pipelines have 
 #### Building a pipeline steps:
 Step 1: Define Preprocessing Steps
 
-           Similar to how a pipeline bundles together preprocessing and modeling steps, we use the ColumnTransformer class to bundle together different preprocessing steps. The code should:
+ Similar to how a pipeline bundles together preprocessing and modeling steps, we use the ColumnTransformer class to bundle together different preprocessing steps. The code should:
 
   *   impute missing values in numerical data, and
   *   impute missing values and applies a one-hot encoding to categorical data.
