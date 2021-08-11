@@ -1,5 +1,5 @@
-# IntroML
-Code I wrote to learn basic and intermediate machine learning skills. I trained and validated a model for Iowa home sale prices predictions.
+# Iowa Home Data Analysis
+Code I wrote to learn basic and intermediate machine learning skills. I trained and validated a model for Iowa home sale prices predictions. I also created a pipeline for this model.
 
 The steps to building and using a model are:
 
